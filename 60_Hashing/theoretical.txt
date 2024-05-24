@@ -1,0 +1,14 @@
+Types of Hashing:
+    1.Division Method.
+    2.Mid Square Method.
+    3.Folding Method.
+    4.Multiplication Method.
+
+Collision: Same index for different elements:
+Resolution of collision:
+    1.Separate chaining: Linked List  (Open Hashing(closed Adddressing))
+    2.Linear probing: (h(k)+i)%M  (Closed Hashing(Open Adddressing))
+    3.Quadratic probing: (h(k)+i^2)%M  Closed Hashing(Open Adddressing)
+    4.Double Hashing: (h1(k)+i*h2(k))%M  (Closed Hashing(Open Adddressing))
+
+Load factor=no of elements/no of buckets = Avg entries in one bucket

@@ -1,0 +1,9 @@
+Data Structure : Priority_queue<pair>, unordered_set(visited), unordered_map<int, pair> table
+
+Insert the src node in the pq <-1, src>
+One by one remove the root element from the pq
+if the root elementis already visited, then continue
+Mark the root element visited
+Store <wt, root> int ther pq
+Update the table(map)
+Go to every neighbour of curr root element and add those which are not visited and have better wt proposition  

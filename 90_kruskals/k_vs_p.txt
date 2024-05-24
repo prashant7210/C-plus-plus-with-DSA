@@ -1,0 +1,5 @@
+Kruskal's : TC -> O(ElogE)
+Prim's : TC -> O(VlogV + ElogV)
+
+If the number  of edges is more than vertices(i.e, dense graph)  then Prims is more efficient than Kruskal
+vice versa for Kruskal ........... 
